@@ -9,10 +9,11 @@ Next.js single-page interface that pairs with the Node.js SSH bridge in `../serv
 
 ## Run Locally
 
-Install dependencies and start the dev server:
+Install dependencies, copy the sample env file, and start the dev server:
 
 ```bash
 npm install
+cp env.example .env.local    # or copy manually on Windows
 npm run dev
 ```
 

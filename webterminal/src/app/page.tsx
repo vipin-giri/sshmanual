@@ -365,10 +365,6 @@ export default function Home() {
           <div className={`${styles.status} ${status === 'error' ? styles.statusError : ''}`}>
             {statusMessage ?? (status === 'idle' ? 'Awaiting credentials.' : status.toUpperCase())}
           </div>
-          <div className={styles.helperText}>
-            Tip: Run the backend server locally at <code>http://localhost:4000</code> or change{' '}
-            <code>NEXT_PUBLIC_TERMINAL_WS_URL</code>.
-          </div>
         </section>
 
         <section className={styles.terminalPanel}>

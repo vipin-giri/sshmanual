@@ -8,7 +8,7 @@ TypeScript/Node.js bridge that opens SSH sessions via the [`ssh2`](https://www.n
 npm install
 ```
 
-Optional environment variables (create a `.env` file if needed):
+Optional environment variables (copy `env.example` to `.env` and adjust values as needed):
 
 ```
 PORT=4000
