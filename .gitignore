@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+server/dist/
+webterminal/.next/
+webterminal/out/
+webterminal/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+*.env.local
+
+# Editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
